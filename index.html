@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="keywords" content="Backpack a Responsive Web Template, Bootstrap Web Templates, Flat Web Templates, Android Compatible Web Template, Smartphone Compatible Web Template, Free Webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design" />
+    <title>响应式</title>
+    <script type="application/javascript">addEventListener('load',function(){
+        setTimeout(hideURLbar,o);
+    },false);function hideURLbar(){window.scrollTo(0,1)}</script>
+    <link rel="stylesheet" href="css/bootstrap.css" media="all"/>
+    <link rel="stylesheet" href="css/style.css" media="all"/>
+    <script src="js/jquery.min.js"></script>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,400italic,300italic,900italic,900,800italic,800,700italic,700,600italic,600,500italic,500' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Aclonica' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function($){
+            $('.scroll').click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            })
+        })
+    </script>
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="top">
+                <div class="logo">
+                    <a href="#"><h2>返回</h2></a>
+                </div>
+                <button class="navbar-toggle collapsed" data-toggla="collapse" data-target="#navber" aria-expanded="false">
+                    <span class="sr-only">组件</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div id="navbar" class="navbar-collapse navbar-right collapse hover-effect">
+                    <ul class="nav navber-nav">
+                        <li><a href="#home" class="scroll">主页</a></li>
+                        <li><a href="#about" class="scroll">关于</a></li>
+                        <li><a href="#services" class="scroll">事件</a></li>
+                        <li><a href="#gallery" class="scroll">画廊</a></li>
+                        <li><a href="#news" class="scroll">新闻</a></li>
+                        <li><a href="#contact" class="scroll">联系</a></li>
+                    </ul>
+                </div>
+                <div class="header-search">
+                    <div id="sb-search" class="sb-search">
+                        <form action="#" method="post">
+                            <input class="sb-search-input" name="search" placeholder="请输入帐号" id="search" required/>
+                            <input type="submit" class="sb-search-submit" value=""/>
+                            <span class="sb-icon-search"></span>
+                        </form>
+                        <div class="clearfix"></div>
+                        <script src="js/classie.js"></script>
+                        <script src="js/uisearch.js"></script>
+                        <script>
+                            new UISearch( document.getElementById( 'sb-search' ) );
+                        </script
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bannertext">
+        <h1>介绍</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cum cupiditate delectus distinctio explicabo facilis illum ipsum magnam maxime modi natus nemo non ratione repellat sed sequi sint, tenetur ut.</p>
+        <a href="#" class="more" data-toggla="modal" data-target="#myModal">更多</a>
+        <a href="#" class="click" data-toggla="modal" data-target="#myModal2">点击</a>
+        <div class="arrow">
+            <a href="#contact" class="scroll"><img src="images/arrow.png"/></a>
+        </div>
+    </div>
+    <!-- 主体-->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/m1.jpg"/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus architecto, atque blanditiis consectetur culpa deserunt error, fugit ipsum magnam minima molestiae provident repellat repudiandae unde veniam voluptatibus. Ea, nobis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal2" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/m2.jpg"/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi aperiam blanditiis deserunt dolorem dolorum exercitationem explicabo facilis, ipsam itaque maxime natus necessitatibus placeat quaerat qui recusandae, repellendus similique ut.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--头部结束-->
+
+<!--历史-->
+<div class="history" id="about">
+    <div class="container">
+        <h3>发展历史</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad commodi consectetur consequuntur dolore esse excepturi, explicabo harum impedit ipsa necessitatibus nesciunt, nihil quas quidem recusandae suscipit veritatis vero, vitae.</p>
+    </div>
+</div>
+<!--/历史-->
+
+<!--服务-->
+<div class="services" id="services">
+    <div class="container">
+        <h3>我们的项目</h3>
+        <div class="servies-grids">
+
+            <div class="col-md-4 col-sm-4'sg1">
+                <img src="images/i2.png"/>
+                <h4>浏览</h4>
+                <label class="whiteline"></label>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque commodi cum cumque error exercitationem expedita explicabo fugit, inventore libero molestias numquam, odit officia perferendis quae quia, rem unde voluptas!</p>
+            </div>
+            <div class="col-md-4 col-sm-4'sg2">
+                <img src="images/i4.png"/>
+                <h4>浏览</h4>
+                <label class="whiteline"></label>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque commodi cum cumque error exercitationem expedita explicabo fugit, inventore libero molestias numquam, odit officia perferendis quae quia, rem unde voluptas!</p>
+            </div>
+            <div class="col-md-4 col-sm-4'sg3">
+                <img src="images/i6.png"/>
+                <h4>浏览</h4>
+                <label class="whiteline"></label>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque commodi cum cumque error exercitationem expedita explicabo fugit, inventore libero molestias numquam, odit officia perferendis quae quia, rem unde voluptas!</p>
+            </div>
+            <div class="col-md-4 col-sm-4'sg4">
+                <img src="images/i1.png"/>
+                <h4>浏览</h4>
+                <label class="whiteline"></label>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque commodi cum cumque error exercitationem expedita explicabo fugit, inventore libero molestias numquam, odit officia perferendis quae quia, rem unde voluptas!</p>
+            </div>
+            <div class="col-md-4 col-sm-4'sg5">
+                <img src="images/i5.png"/>
+                <h4>浏览</h4>
+                <label class="whiteline"></label>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque commodi cum cumque error exercitationem expedita explicabo fugit, inventore libero molestias numquam, odit officia perferendis quae quia, rem unde voluptas!</p>
+            </div>
+            <div class="col-md-4 col-sm-4'sg6">
+                <img src="images/i3.png"/>
+                <h4>浏览</h4>
+                <label class="whiteline"></label>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque commodi cum cumque error exercitationem expedita explicabo fugit, inventore libero molestias numquam, odit officia perferendis quae quia, rem unde voluptas!</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!--结束-->
+
+<!--画廊-->
+<div class="gallery" id="gallery">
+    <div class="container">
+        <h3>我们的历程</h3>
+        <div class="gallery-grids">
+            <div class="gallery-grids1">
+                <div class="gallery-grid-left">
+                    <div class="gallery-grid-left1 animated slideInUp" data-wow-dalay="0.5s">
+                        <a href="images/big1.jpg" class="swipebox" title="返回">
+                            <img src="images/g1.jpg" alt="" class="img-responsive"/>
+                            <div class="p-mask">
+                                <h4>德玛西亚</h4>
+                                <p>一花一世界</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery-grid-left">
+                        <div class="gallery-grid-left1 animated slideInUp" data-wow-dalay="0.5s">
+                            <a href="images/big2.jpg" class="swipebox" title="返回">
+                                <img src="images/g2.jpg" alt="" class="img-responsive"/>
+                                <div class="p-mask">
+                                    <h4>德玛西亚</h4>
+                                    <p>一花一世界</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="gallery-grid-left">
+                            <div class="gallery-grid-left1 animated slideInUp" data-wow-dalay="0.5s">
+                                <a href="images/big3.jpg" class="swipebox" title="返回">
+                                    <img src="images/g3.jpg" alt="" class="img-responsive"/>
+                                    <div class="p-mask">
+                                        <h4>德玛西亚</h4>
+                                        <p>一花一世界</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="gallery-grid-left">
+                                <div class="gallery-grid-left1 animated slideInUp" data-wow-dalay="0.5s">
+                                    <a href="images/big4.jpg" class="swipebox" title="返回">
+                                        <img src="images/g4.jpg" alt="" class="img-responsive"/>
+                                        <div class="p-mask">
+                                            <h4>德玛西亚</h4>
+                                            <p>一花一世界</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="gallery-grid-left">
+                                    <div class="gallery-grid-left1 animated slideInUp" data-wow-dalay="0.5s">
+                                        <a href="images/big5.jpg" class="swipebox" title="返回">
+                                            <img src="images/g5.jpg" alt="" class="img-responsive"/>
+                                            <div class="p-mask">
+                                                <h4>德玛西亚</h4>
+                                                <p>一花一世界</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="gallery-grid-left">
+                                        <div class="gallery-grid-left1 animated slideInUp" data-wow-dalay="0.5s">
+                                            <a href="images/big6.jpg" class="swipebox" title="返回">
+                                                <img src="images/g6.jpg" alt="" class="img-responsive"/>
+                                                <div class="p-mask">
+                                                    <h4>德玛西亚</h4>
+                                                    <p>一花一世界</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                </div>
+                                    <div class="clearfix"></div>
+            </div>
+                                <script src="js/jquery.swipebox.min.js"></script>
+                                <script type="text/javascript">
+                                    jQuery(function($) {
+                                        $(".swipebox").swipebox();
+                                    });
+                                </script>
+        </div>
+    </div>
+</div>
+                    <!-- 结束-->
+
+                    <!-- 新闻-->
+ <div class="news" id="news">
+     <div class="container">
+         <h3>我们的新闻</h3>
+         <div class="col-md-6 col-sm-6 newsl">
+             <h5>多出去看一看</h5>
+             <a class="data">2016-9-6</a>
+             <img src="images/news.jpg"/>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae cum debitis dignissimos dolor, ducimus eligendi est fugit, iste magni nemo odit possimus praesentium, quam quidem quis quod temporibus voluptatibus. Iusto!</p>
+         </div>
+         <div class="col-md-6 col-sm-6 newsr">
+             <h4>到达</h4>
+             <ul>
+                 <li><a href="#" class="hvr-rectangle-in">旅馆</a></li>
+                 <li><a href="#" class="hvr-rectangle-in">驾车</a></li>
+                 <li><a href="#" class="hvr-rectangle-in">名胜</a></li>
+                 <li><a href="#" class="hvr-rectangle-in">度假</a></li>
+                 <li><a href="#" class="hvr-rectangle-in">火车</a></li>
+                 <li><a href="#" class="hvr-rectangle-in">休假</a></li>
+                 <li><a href="#" class="hvr-rectangle-in">旅游</a></li>
+                 <li><a href="#" class="hvr-rectangle-in">飞机</a></li>
+                 <li><a href="#" class="hvr-rectangle-in">动物园</a></li>
+             </ul>
+             <h6>最近的帖子</h6>
+             <div class="newsrt">
+                 <div class="col-md-3 col-sm-3 newsrtl">
+                     <img src="images/b1.jpg"/>
+                 </div>
+                 <div class="col-md-9 col-sm-9 newsrtr">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam assumenda blanditiis consectetur deleniti dicta earum enim ex excepturi in natus obcaecati placeat quo ratione, repudiandae saepe voluptas. Consequatur, sit?</p>
+                     <a href="data">2016-7-9</a>
+                 </div>
+                 <div class="clearfix"></div>
+             </div>
+             <div class="newsrt">
+                 <div class="col-md-3 col-sm-3 newsrbl">
+                     <img src="images/b2.jpg"/>
+                 </div>
+                 <div class="col-md-9 col-sm-9 newsrbr">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolorum, fugit harum hic impedit labore laudantium, magni modi molestiae nesciunt odio qui quis quo sit tempore ullam unde, voluptate voluptatibus.</p>
+                     <a href="data">2016-9-9</a>
+                 </div>
+                 <div class="clearfix"></div>
+             </div>
+         </div>
+         <div class="clearfix"></div>
+     </div>
+ </div>
+                    <!-- 结束-->
+
+                    <!-- 正文-->
+<div class="contact" id="contact">
+    <div class="container">
+        <h3>联系我们</h3>
+        <div class="col-md-6 col-md-6 cl">
+            <h4>联系表单</h4>
+            <form action="#" method="post">
+                <input type="text" name="你的名字" placeholder="你的名字"/><br/>
+                <input type="text" name="你的邮箱" placeholder="你的邮箱"/><br/>
+                <textarea name="你的文件"cols="30" rows="4" placeholder="你的文件"></textarea>
+                <input type="submit" class="hvr-rectangle-in" value="发送文件"/>
+            </form>
+        </div>
+        <div class="col-md-6 col-sm-6 cr">
+            <h4>我们的地址:</h4>
+            <h5>flat no:42/16, <br>GM Chowdhury Road, <br>Khulna.</h5>
+            <h4>电话:</h4>
+            <h5>+880 1918 691 601</h5>
+            <h4>E-mail:</h4>
+            <h5><a href="mailto:info@example.com">mlsbd@live.com</a></h5>
+            <h4>我们的网站:</h4>
+            <h5><a href="https://w3layouts.com/">www.w3layouts.com</a></h5>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+                    <!-- 结束-->
+
+                    <!-- 底部-->
+ <div class="footer" id="footer">
+     <div class="container">
+         <h3>返回</h3>
+         <h5>我们的部门</h5>
+         <label class="footerline"></label>
+         <div class="socialicons">
+             <ul>
+                 <li> <a class="facebook" href="#"></a></li>
+                 <li> <a class="twitter" href="#"></a></li>
+                 <li> <a class="pinterest" href="#"></a></li>
+                 <li> <a class="google" href="#"></a></li>
+                 <li> <a class="linkedin" href="#"></a></li>
+             </ul>
+         </div>
+         <p> &copy; 2016 Backpack. All Rights Reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+     </div>
+ </div>
+                    <!-- 结束-->
+      <script src="js/bootstrap.min.js"></script>
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            /*
+                             var defaults = {
+                             containerID: 'toTop', // fading element id
+                             containerHoverID: 'toTopHover', // fading element hover id
+                             scrollSpeed: 1200,
+                             easingType: 'linear'
+                             };
+                             */
+
+                            $().UItoTop({ easingType: 'easeOutQuart' });
+
+                        });
+                    </script>
+
+</body>
+</html>
